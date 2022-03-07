@@ -1,0 +1,140 @@
+body,ul{
+    margin: 0;
+}
+
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+}
+
+ul{
+ display: flex;
+ justify-content: space-between;
+ padding: 0 20%;
+}
+
+nav{
+    background-color: rgb(173, 128, 138);
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+h1{
+  font-size: 80px;
+  color: antiquewhite;
+}
+header div{
+    height: 65vh;
+    display: flex;
+    align-items: center;
+}
+
+header{
+    background-image: url(../images/Desert.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 58px;
+}
+
+main{
+    margin-top: -50px;
+}
+
+main > section{
+    padding: 50px 200px;
+}
+
+#section-1{
+padding-top: 0;    
+display: flex;
+justify-content: space-between;
+}
+
+#section-1 section{
+    border: 1px solid rgba(0, 0, 0,.125);
+    width: 30%;
+    padding: 25px;
+    box-sizing: border-box;
+    box-shadow: 0 10px 10px rgba(0, 0, 0,.125);
+    background-color: white;
+    text-align: center;
+}
+
+#section-1 p{
+    text-align: justify;
+}
+
+.section-flex > div {
+    
+    background-color: white;
+    align-self: center;
+    padding:15px;
+    margin-left: -50px;
+    box-shadow: 0 10px 10px rgb(0 0 0 / 13%);
+    border: 1px solid rgba(0,0,0,.125);
+}
+
+.section-flex{
+    display:flex;
+   
+   
+}
+
+img{
+    width:50%;
+    height:auto;
+    object-fit: contain;
+}
+h2{
+    text-align: center;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+}
+.gallery div{
+    width: 25%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.gallery img {
+    width: 100%; 
+    height: auto;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid #dee2a6;
+  
+    
+}
+#contact-div{
+    display: flex;
+}
+#contact-div iframe{
+    width: 50%;
+    height: 400px;
+    border: 0;
+    
+}
+address {
+    text-align: center;
+    width: 50%;
+    align-self: center;
+}
+footer{
+    background-color: #959595;
+    padding: 50px 0;
+    text-align: center;
+}
+footer a {
+    display: inline;
+    padding: 0;
+}
+@font-face {
+    font-family: ;
+    src: url(../fonts/cubic.ttf);
+}
